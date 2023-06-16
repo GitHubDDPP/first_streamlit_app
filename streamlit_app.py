@@ -73,7 +73,8 @@ if streamlit.button('Get Fruit Load List'):
   streamlit.dataframe(my_data_rows)
 
 # don't run anything past here here while we troubleshoot
-#streamlit.stop()
+#
+streamlit.stop()
 
 
 # 16 juin
